@@ -25,7 +25,6 @@ module.exports = function solveSudoku(matrix) {
     return true;
   }
 
-  if (Solve()) return matrix;
-  return false;
+  return Solve() ? matrix : false;
 }
 
